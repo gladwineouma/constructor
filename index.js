@@ -1,3 +1,4 @@
+//pseudocode
 // constructor bank account(name, balance)
 //deposit = balance +amount(new balance)
 //withdraw condition for insuffient funds/withdrawable
@@ -40,6 +41,23 @@ account3.withdraw(500);
 account3.deposit(250);
 
 
+// Create a Student object with name, scores (an array), and a method getAverage() 
+// that returns the average score. Add another method hasPassed() that returns true if 
+// the average is 50 or more, otherwise false. Create and test this for at least two students.
+//pseudocode
+//student object(name,scores[])
+//get average of the sudent score array
+//if studentAverage > 50 return true passed else false
+
+function Student(name, scores) {
+   
+}
+
+const Mary = Student("Mary", [40, 55, 60]);
+const Jane =Student("Jane", [30, 40, 35]);
+
+
+//pseudocode
 // constructor movie(title,year,rating)
 // function in constructor that retuns classic if year < 2000,
 // function in constructor that retuns recommended if rate > 8
